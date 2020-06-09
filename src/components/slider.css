@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700&display=swap');
+
+.image-container {
+	background: url('../assets/pattern-bg.svg') center no-repeat;
+	background-size: contain;
+}
+
+.image {
+	max-width: 500px;
+	min-width: 300px;
+}
+
+.slider-icons {
+	top: -50px;
+}
+
+@media only screen and (max-width: 640px) {
+	.slider-text {
+		background: url('../assets/pattern-quotes.svg') top center no-repeat;
+		background-size: 70px;
+		font-family: 'Inter', sans-serif;
+	}
+}
+
+.slider-quote {
+	font-weight: 300;
+}
+
+.dark-blue {
+	color: hsl(240, 38%, 20%);
+}
+
+.grayish-blue {
+	color: hsl(240, 18%, 77%);
+}
+
+@media only screen and (min-width: 640px) {
+	.dt-quote-bg {
+		background: url('../assets/pattern-quotes.svg') 10% 5% no-repeat;
+		background-size: 70px;
+		font-family: 'Inter', sans-serif;
+	}
+	.image-container {
+		right: 70px;
+		width: 500px;
+	}
+	.slider-text {
+		left: 70px;
+	}
+	.slider-icons {
+		left: -70px;
+	}
+}
